@@ -1,20 +1,20 @@
 puts "Combien d'étages voulez-vous à votre pyramide ?"
 print "> "
-etages = gets.chomp.to_i
+row = gets.chomp.to_i
 diese = 1
-espace = etages - 1
+space = row - 1
 
-while etages > 25 || etages < 1 do
+while row > 25 || row < 1 do
   puts "La pyramide ne doit pas avoir plus de 25 étages !"
   print "> "
-  etages = gets.chomp.to_i
+  row = gets.chomp.to_i
 end
 
-etages.times do
-       espace.times do
+row.times do
+       space.times do
         print " "
        end
-       espace -= 1
+       space -= 1
     diese.times do
        print "#"
        end
