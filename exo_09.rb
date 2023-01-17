@@ -1,7 +1,9 @@
+# Set a birth year
 puts "Entre ta date de naissance"
 print "> "
 number = gets.chomp
 
+# Turn str into int
 birth = number.to_i
 current_year = 2023
 
