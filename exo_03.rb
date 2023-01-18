@@ -1,9 +1,4 @@
-act_year = 2023
-year_dif = 2023 - 2017
-
-# Set input birth year
-puts "Ton année de naissance"
-print ": "
-birth = gets.chomp
-
-puts "En 2017, tu avais : #{act_year - birth.to_i - year_dif} ans"
+puts "Quelle est ton année de naissance Moussaillon"
+birthyear= gets.chomp.to_i
+print "tu auras 100 ans au court de l'année :"
+puts "#{birthyear + 100} si le sort t'es favorable moussaillon"
